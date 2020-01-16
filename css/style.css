@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran|Lato|Roboto&display=swap');
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Catamaran', sans-serif; */
+
+
+
+:root {
+    --light-gray: #2b3032a1;
+    --primary-color: #45ccb8;
+    --border: #2b303218;
+    --text-color: #ff686b;
+    --roboto: "Roboto", sans-serif;
+}
+
+.primary-color{
+    color:var(--primary-color);
+}
+
+.bg-primary-color{
+    background-color: var(--primary-color) !important;
+}
+
+.text-color{
+    color: var(--text-color);
+}
+
+.lightblue{
+    color: lightblue;
+}
+
+.site-content{
+    background-image: url(../img/img1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-title {
+    margin-top: 20%;
+    margin-bottom: 2%;
+}
+
+.site-desc{
+    margin-bottom: 5%;
+}
+
+.site-btn{
+    margin-bottom: 30%;
+    padding: 0 50px;
+    margin-left: 5%;
+}
+
+.para-1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.section-1{
+    margin-bottom: 10%;
+}
+
+    /* section-2 */
+
+
+.section-2 .container-fluid{
+    background-image: url(../img/stay2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+
+.section-2 .btn{
+    width: 40%;
+    margin-bottom: 25%;
+    padding: 5px 10px;
+}
+
+.section-2 .heading-1{
+    margin-top: 20%;
+}
+
+
+.section-3 .d-flex{
+    margin: 5%;
+}
+
+.section-4 .col-md-7 img {
+    margin-left: 20%;
+}
+
+.section-4 .heading-1{
+    margin-top: 5%;
+    color: whitesmoke
+}
+
+.section-4 .para-1{
+    color: whitesmoke;
+    width: 70%;
+}
+
+
+
+
